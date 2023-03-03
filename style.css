@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: url(fonn.png) !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed; 
+}
+.main{
+    display: flex;
+    width: 1980px;
+}
+h1{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ececec;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    display: none;
+}
+.products{
+    background-color: #55acee;
+    padding: 15px 35px;
+    margin: 100px;
+    width: 1000;
+    height: auto;
+    display: flex;
+    background: rgba(0,0,0,0.5);
+}
+.week{
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    text-align: left;
+    opacity: .8;
+    font-family: Georgia, 'Times New Roman', Times, bold;
+    display: inline-table;
+}
+.no_buy{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, bold;
+    display: none;
+}
+/* оформление товаров */
+.product{
+    margin-top: 300px;
+    height: 380px;
+    width: 270px;
+    margin: 50px;
+    display: inline-table;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background: rgb(127, 48, 158);
+    box-shadow: 0 5px 0 rgb(57, 20, 77);
+    font-size: 16px;
+    color: rgb(14, 13, 13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info_prod{
+    display: none;
+    color: white;
+    
+}
+.inf_prod_bottom{
+    background-color: rgb(255, 254, 254);
+    width: 1400px;
+    height: 2px;
+}
+.inf_prod{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+    width: 1400px;
+    background-color: #3C93D5;
+    background: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+}
+.inf_prod_sum{
+    font-size: 24px;
+    color: white;
+    orientation: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+/* Расположение товаров */
+.content{
+    display: inline-table;
+    width: 95%;
+}
+/* Меню категорий */
+.choise{
+    display: inline-table;
+    height: 750px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(193, 93, 233);
+    font-size: 21px;
+    color: rgb(39, 30, 30);
+    
+    
+}
+/* размер картинок товаров */
+.img_size{
+    width: 270px;
+    height: 270px;
+}
+/* оформление верхушки */
+.verx{
+    vertical-align: baseline;
+    min-width: 0px;
+    width: auto;
+    height: 90px;
+    width: 1800px;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+}
+
+
+/* Кнопка " В корзину" */
+.korz{
+    font-size: 22px;
+    background-color: rgb(55, 52, 204);
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Поиск товаров */
+.d2 {
+    display: flex;
+    padding-top: 15px ;
+    margin-left: 90px;
+    margin-top: 10px;
+    background: rgb(36, 35, 35);
+    height: 55px;
+    width: 200px;
+    border-radius: 5px;
+}
+.d2 input, .d2 button {
+
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.d2 input {
+  width: 200px;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+
+.d2 button:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Функция выключения дисплея из за кнопки авториации */
+.blform{
+    display: none;
+}
+/* кнопка лог ин */
+.btnlog{
+    margin-top: 30px;
+    font-size: 22px;
+    color: white;
+    font-style: bold;
+}
+.registration{
+    font-size: 26px;  
+    margin: 7px 7px 7px 7px;
+    background-color: blue;
+}
+/* расположение кнопки лог ин */
+.log_in{
+    display: flex;
+    margin-left: 1100px;
+    background: rgb(36, 35, 35);
+    height: 20px;
+    width: 100px;
+    text-align: bottom;
+}
+.korzina{
+    margin-top: 300px;
+    height: 500px;
+    width: 350px;
+    margin: 50px;
+    display: inline-table;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background: #55acee;
+    box-shadow: 0 5px 0 #3C93D5;
+}
+.category{
+    font-size: 22px;
+    color: rgb(189, 183, 183);
+    font-family: Georgia, 'Times New Roman', Times, bold;
+    margin-top: 10px;
+
+}
+.price_tx{
+    color: #dee762;
+    font-size: 24px;
+}
+.login{
+    display: none;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+}
+
+.section{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #F9F0DA;
+}
+.inputbox2{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #F9F0DA;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #f3f3f3;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none;
+}
+.inputbox2 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #f3f3f3;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5%;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.inputbox input {
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: rgb(255, 255, 255);
+}
+.inputbox2 input {
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: rgb(255, 255, 255);
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: #F9F0DA;
+    text-align: center;
+}
+
